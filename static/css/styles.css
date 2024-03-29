@@ -1,0 +1,87 @@
+/* Add this to your existing CSS file or link a new CSS file */
+
+/* Project Details */
+.project-details {
+    padding: 10rem 9% 2rem;
+    background-color: red; /* Black background */
+    color: var(--text-color);
+  }
+  
+  .project-details .heading span {
+    color: var(--main-color); /* Bluish light color */
+  }
+  
+  .project-details .project-content {
+    text-align: center;
+  }
+  
+  .project-details h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-details p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project-details .btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .project-details .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color); /* Bluish light color */
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+    text-decoration: none;
+  }
+  
+  .project-details .btn:hover {
+    box-shadow: none;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1rem 9%;
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-txt p {
+    font-size: 1.6rem;
+  }
+  
+  .footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    margin: 10px;
+    background-color: var(--main-color); /* Bluish light color */
+    border-radius: 1rem;
+    transition: 0.5s ease;
+  }
+  
+  .footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+  }
+  
+  .footer-iconTop a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+  }
+  

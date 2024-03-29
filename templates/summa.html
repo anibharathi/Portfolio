@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">WELCOME!!</a>
+        <i class="bx bx-menu" id="menu-icons"></i>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="" class="active">About</a>
+            <a href="/#skill">Skills</a>
+            <a href="/#portfolio">Projects</a>
+            <a href="/#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <div class="hero hero-single route bg-image" style="background-image: url(../static/images/portfolio1.jpg)">
+        <div class="hero-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h2 class="hero-title mb-4">Automated Weather Classification</h2>
+                    <!-- Breadcrumb -->
+<ol class="breadcrumb d-flex justify-content-center">
+    
+    </li>
+    <li class="breadcrumb-item nonactive">
+      <a href="/">home</a>
+    </li>
+    <li class="breadcrumb-item active">
+      <a href="/">projects</a>
+    </li>
+  </ol>
+  
+                </div>
+            </div>
+        </div>
+    </div>
+      <section class="main">
+            <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img src="../static/images/1.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="../static/images/2.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="/static/images/3.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="../static/images/4.jpg" alt="">
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <!--image slider end-->
+      </section>
+        
+    <!-- Project Details Section -->
+    <section class="project-details">
+        <div class="project-details-content">
+            <div class="project">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <!-- Repeat the above project block for more projects -->
+
+            <!-- You can adjust the number of project blocks as needed -->
+
+        </div>
+    </section>
+
+    <!-- Include your other sections here (About, Skills, Portfolio, Contact, etc.) -->
+
+    <footer class="footer">
+        <div class="footer-txt">
+            <p>Copyright &copy 2023 by Jayachandran R | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <script src="../static/js/script.js"></script>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        }, 5000);
+        </script>
+
+
+</body>
+
+</html>
+
